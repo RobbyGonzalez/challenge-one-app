@@ -1,0 +1,10 @@
+.CallToAction {
+    border-width: 2px;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    width: 10rem;
+    height: 2.75rem;
+}

@@ -12,7 +12,7 @@ const Header = () => {
                 link="https://nicepage.com/"
                 alt="logo"
             />
-            <ButtonGroup /> {/*This migt need to change*/}
+            <ButtonGroup />
             <Button
                 imagePath={close}
                 link="https://nicepage.com/st/48832/machinery-parks-for-industrial-website-template"

@@ -1,0 +1,24 @@
+.SectionThree {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto auto auto);
+}
+
+#one {
+    margin: auto;
+    grid-column: 1;
+}
+
+#two {
+    margin: auto;
+    grid-column: 2;
+}
+
+#two>img {
+    width: 700px;
+}
+
+#three {
+    margin: auto;
+    grid-column: 3;
+}

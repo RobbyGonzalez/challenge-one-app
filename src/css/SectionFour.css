@@ -1,0 +1,19 @@
+.SectionFour {
+    background-color: black;
+    color: white;
+}
+
+.SectionFour>.title {
+    display: block;
+    margin-top: 100px;
+    padding-top: 40px;
+}
+
+.SectionFour>.portfolio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gridImage {
+    scale: 1.05;
+}

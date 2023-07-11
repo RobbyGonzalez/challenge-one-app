@@ -1,8 +1,10 @@
-
+import "../css/CallToAction.css"
 
 const CallToAction = () => {
     return (
-        <div>CallToAction</div>
+        <div className="CallToAction">
+            <p>Read More</p>
+        </div>
     )
 }
 

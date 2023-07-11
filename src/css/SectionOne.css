@@ -1,0 +1,19 @@
+.SectionOne {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+
+}
+
+.one {
+    grid-column: 2/4;
+    align-self: center;
+}
+
+.two {
+    grid-column: 4;
+}
+
+.SectionOne>img {
+    width: 450px;
+}

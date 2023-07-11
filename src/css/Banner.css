@@ -1,5 +1,24 @@
-.Banner {}
+.Banner {
+    min-height: 975px;
+    position: relative;
+    width: 1140px;
+    margin: auto;
+}
+
+#bannerImage {
+    height: 428px;
+    object-position: 50% 100%;
+    object-fit: cover;
+    filter: brightness(0.85);
+    /* background-position: 50% 100%; */
+    margin: 0 auto 0 0;
+    width: 100%;
+}
 
 h1 {
-    /* word-wrap: break-word; */
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-family: sans-serif;
+    width: 800px;
+    margin: 2em auto 1em;
 }

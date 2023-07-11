@@ -1,0 +1,39 @@
+.DoubleImage {
+    width: 797px;
+    margin: -262px auto 19px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 100%;
+    max-width: 100%;
+    align-content: center;
+    align-items: center;
+
+}
+
+#lady,
+.card {
+    height: 428px;
+    width: 48.5%;
+}
+
+#lady {
+    object-position: 75% 100%;
+}
+
+.card {
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.card>p {
+    align-self: flex-end;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,19 @@
+.SectionTwo {
+    background-color: black;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.SectionTwo>.title {
+    display: block;
+    margin-top: 100px;
+    padding-top: 40px;
+}
+
+.SectionTwo>.certifications {
+    display: grid;
+    width: 900px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    gap: 40px;
+}

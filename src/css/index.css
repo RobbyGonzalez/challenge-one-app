@@ -6,3 +6,13 @@
     box-sizing: border-box;
     text-align: center;
 }
+
+body {
+    margin: 0;
+}
+
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}

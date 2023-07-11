@@ -1,0 +1,23 @@
+.SectionFive {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+.three {
+    grid-column: 2/4;
+    align-self: center;
+    margin: auto;
+}
+
+.four {
+    grid-column: 4;
+    width: 500px;
+}
+
+.SectionFive>img {
+    width: 450px;
+}
